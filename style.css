@@ -1,0 +1,91 @@
+* {
+  margin: 20px;
+}
+
+.odin {
+  font-size: 50px;
+  text-align: center;
+}
+
+.recipe-link {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+
+  list-style-position: inside;
+}
+
+.recipe-link:hover {
+  font-size: 30px;
+}
+
+.recipe-box {
+  border-style: solid;
+  border-radius: 20%;
+  margin: 100px;
+  padding: 30px;
+  background-color: lightcoral;
+}
+
+.recipe-title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 50px;
+
+  border: solid;
+  border-radius: 20%;
+  margin: 50px;
+  padding: 30px;
+  background-color: lightcoral;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.description {
+  font-size: 20px;
+  text-align: center;
+}
+
+.history {
+  font-size: 20px;
+  text-align: center;
+}
+
+.ingredients-box {
+  border: solid;
+  margin: 100px;
+}
+
+.ingredients-title {
+  text-align: center;
+  font-size: 25px;
+}
+
+.ingredients-list {
+  text-align: center;
+  list-style-position: inside;
+  line-height: 2px;
+}
+
+.steps-box {
+  border: solid;
+  margin: 100px;
+}
+
+.steps {
+  text-align: center;
+  font-size: 25px;
+}
+
+.steps-list {
+  text-align: center;
+  list-style-position: inside;
+  line-height: 30px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
