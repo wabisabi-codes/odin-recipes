@@ -8,11 +8,16 @@
 }
 
 .recipe-link {
-  font-size: 24px;
+  font-size: 20px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
 
-  list-style-position: inside;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  align-items: start;
+
+  margin-left: 100px;
 }
 
 .recipe-link:hover {
@@ -22,15 +27,19 @@
 .recipe-box {
   border-style: solid;
   border-radius: 20%;
-  margin: 100px;
-  padding: 30px;
+  padding-top: 30px;
   background-color: lightcoral;
+  margin: 100px;
+}
+
+.recipe-box img {
+  width: 15%;
 }
 
 .recipe-title {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 40px;
   text-align: center;
-  font-size: 50px;
 
   border: solid;
   border-radius: 20%;
@@ -44,6 +53,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 25%;
+  border: solid;
 }
 
 .description {
@@ -54,11 +64,16 @@ img {
 .history {
   font-size: 20px;
   text-align: center;
+  margin: 50px;
 }
 
 .ingredients-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
   border: solid;
-  margin: 100px;
+
+  align-items: center;
 }
 
 .ingredients-title {
@@ -68,24 +83,46 @@ img {
 
 .ingredients-list {
   text-align: center;
-  list-style-position: inside;
-  line-height: 2px;
+  line-height: 15px;
+  list-style: inside;
+  padding-left: 0px;
 }
 
 .steps-box {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
   border: solid;
-  margin: 100px;
+
+  align-items: center;
 }
 
 .steps {
   text-align: center;
   font-size: 25px;
+  line-height: 15px;
 }
 
 .steps-list {
   text-align: center;
   list-style-position: inside;
-  line-height: 30px;
-  padding-left: 100px;
-  padding-right: 100px;
+  line-height: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  background-color: rgb(224, 245, 224);
+}
+
+.footer {
+  background-color: lightcoral;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
